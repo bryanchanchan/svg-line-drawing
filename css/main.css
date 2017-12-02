@@ -2,7 +2,7 @@ h1 {
   font-family: "Unica One", sans-serif;
   z-index: 100;
   top: 162px;
-  left:62px;
+  left: 62px;
   color: #fff;
   margin: 0;
   animation: fadein 1s ease-in;
@@ -27,49 +27,58 @@ svg {
     opacity: 1;
   }
 }
+
 #rainbow-violet {
   animation: offset 2s linear forwards;
   stroke-dasharray: 2570px;
   stroke-dashoffset: 2570px;
 }
+
 #rainbow-indigo {
   animation: offset 2s linear forwards;
   stroke-dasharray: 2440px;
   stroke-dashoffset: 2440px;
 }
+
 #rainbow-blue {
   animation: offset 2s linear forwards;
   stroke-dasharray: 2270px;
   stroke-dashoffset: 2270px;
 }
+
 #rainbow-green {
   animation: offset 2s linear forwards;
   stroke-dasharray: 2120px;
   stroke-dashoffset: 2120px;
 }
+
 #rainbow-yellow {
   animation: offset 2s linear forwards;
   stroke-dasharray: 1970px;
   stroke-dashoffset: 1970px;
 }
+
 #rainbow-orange {
   animation: offset 2s linear forwards;
   stroke-dasharray: 1820px;
   stroke-dashoffset: 1820px;
 }
+
 #rainbow-red {
   animation: offset 2s linear forwards;
   stroke-dasharray: 1670px;
   stroke-dashoffset: 1670px;
 }
+
 #narwhal-body {
   animation: offset 1s linear forwards;
   stroke-dasharray: 2650px;
   stroke-dashoffset: 2650px;
 }
+
 @keyframes offset {
 
-  to{
+  to {
     stroke-dashoffset: 0;
   }
 
